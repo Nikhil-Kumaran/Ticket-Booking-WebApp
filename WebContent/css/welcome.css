@@ -1,0 +1,59 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background: #fafafa;
+   overflow-x: hidden;
+}
+
+.brand-logo{
+   margin-left: 2%;
+}
+.material-icons{
+}
+.nav-wrapper{
+   width: 100vw;
+   box-shadow: 0px 3px 20px 3px rgba(0,0,0,0.4);
+}
+.btn-flat{
+   padding: 0 !important;
+   color: white !important;
+   margin-right: 50px !important;
+}
+.btn-flat:hover{
+   border-bottom: 1px solid white !important;
+}
+.bord{
+   position: absolute;
+   height: 2px;
+   width: 100px;
+   background: white;
+}
+.landing{
+   width: 100vw;
+   height: 100vh;
+   background: url("../assets/bg.png") no-repeat center top fixed;
+   position: relative;
+
+}
+.layer{
+   position: absolute;
+   background: black;
+   height: 100vh;
+   width: 100vw;
+   opacity: 0.5;
+}
+.content{
+   position: relative;
+   left: 50%;
+   top:40%;
+   transform: translate(-50%,-40%);
+   display: inline-block;
+   width: 400px;
+   color: white;
+   text-align: center;
+   padding: 2%;
+}
+.

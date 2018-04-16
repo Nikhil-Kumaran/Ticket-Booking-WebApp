@@ -1,0 +1,26 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.btn-flat{
+   color: black !important;
+   border: 1px solid black;
+}
+.input-field label {
+   color: #000 ;
+   text-decoration: bold;
+   font-size: 1.2rem;
+}
+.input-field input[type=email]:focus + label,.input-field input[type=password]:focus + label,.input-field input[type=text]:focus + label{
+   color:  #000 !important;
+}
+   /* label underline focus color */
+.input-field input[type=email]:focus,.input-field input[type=password]:focus,.input-field input[type=text]:focus{
+   border-bottom: 1px solid  #000 !important;
+   box-shadow: 0 1px 0 0  #000 !important;
+}
+.error{
+	color:red !important;
+	text-align:center !important;
+	
+}
